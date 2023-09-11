@@ -7,6 +7,8 @@ import retrofit2.http.Query
 object RetrofitClient {
     private const val BASE_URL = "http://api.weatherapi.com/v1/current.json?key=1d0ddc16fc254a4086595524231708&q=bangalore&aqi=no"
 
+
+    
     val instance: Retrofit by lazy {
         Retrofit.Builder()
             .baseUrl(BASE_URL)
