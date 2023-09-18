@@ -11,8 +11,15 @@
 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="To"
-            android:inputType="text" />
+            android:hint="Location"
+            android:inputType="text"
+    />
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="40dp"
+            android:text = "Request"/>
 
 
     <EditText
@@ -20,13 +27,8 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="top"
-            android:hint="Message"
-             />
-    <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end"
-            android:layout_margin="40dp"
-            android:text = "Request"/>
+            android:hint="Weather Report"
+            android:_input_type = "textMultiline" />
+
 
 </LinearLayout>
